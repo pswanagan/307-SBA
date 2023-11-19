@@ -5,8 +5,11 @@ body {
     min-height: 100vh;
     
 }
+
 h3:first-of-type {
     text-decoration: line-through;
     text-decoration-color: red;
     text-decoration-thickness: 5px;
 }
+
+
