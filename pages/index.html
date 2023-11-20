@@ -37,6 +37,16 @@ nav div {
     background-color: darkslateblue;
     width: 100%;
 }
+@keyframes flash {
+  from {color:white;}
+  to {color: red;}
+}
+.flash {
+animation-name: flash;
+animation-duration: 1s;
+animation-iteration-count: 20;
+animation-timing-function:ease;
+}
 
     </style>
     <title>World Class Binoculars</title>
@@ -73,7 +83,7 @@ nav div {
         <div class="row">
           <div class="col">
             <div class="text-center ">
-                <h1>World Class Binoculars</h1>
+                <h1 class="flash"style="width: 850px; text-align: right;">World Class Binoculars</h1>
                 <img src="../images/binoculars.jpg" class="rounded" id="sized" alt="photo of binoculars" style="height: 300px; width: 400px;">
                 <br>
                 <br>
